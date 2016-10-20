@@ -1,10 +1,10 @@
 from twitter import *
 
 # Change to your keys
-oauth_token = '8875212-2pBFBYaRkq2RBGWlv33KDCvi6PQhsCuFDajQId7myu' 
-oauth_secret = '0k61oQsW5ED1bueFehgL5ExjhCATQ4zL2N7Nk1swr6ofF'
-consumer_key = 'wuOmkt9cL0VLCFJ3HEqf4vlaw'
-consumer_secret = 'hfNtkmr8kreLUdD2yXwkYV98HRSqxTojoduUt1etyUHuvfW85E'
+oauth_token = '' 
+oauth_secret = ''
+consumer_key = ''
+consumer_secret = ''
 
 with open('football_terms.txt') as f:
 	vocab = [term.replace('\n', '') for term in f.readlines()]

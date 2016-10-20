@@ -54,4 +54,4 @@ for tweet in T.raw_tweets_to_dict(sys.stdin):
 sleep(5)
 tweet_thread_manager.stop()
 tweet_thread_manager.print_stats()
-recognizer.stop()
+;recognizer.stop()
